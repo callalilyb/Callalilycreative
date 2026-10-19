@@ -35,3 +35,12 @@ I hope this makes sense written like that.
 
 
 To view the homepage HTML skeleton, this is the link [https://callalilyb.github.io/Callalilycreative/] 
+
+Mtm1511 Week 6 Assignment:
+Skip link created and tested: yes
+Contrast ratios: yes
+    there is no css here, so I ran the contrast check on the standard browser colours, regular text, unvisited links, and visited links. Each passes contrast ratio check. This assumes Chrome is using standard default colours. 
+Lighthouse accessibility audit: first score 94/100
+    "Touch targets do not have sufficient size or spacing."
+    This requires a bit of CSS to add padding
+    style tag added in 'head' with padding. Used ChatGPT to reccommend and it suggested an inline-block as well. 
