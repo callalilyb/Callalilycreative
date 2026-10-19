@@ -32,3 +32,6 @@ Calla Lily Creative
 --------Contact (contact.html)
 
 I hope this makes sense written like that. 
+
+
+To view the homepage HTML skeleton, this is the link [https://callalilyb.github.io/Callalilycreative/] 
