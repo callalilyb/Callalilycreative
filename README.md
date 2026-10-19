@@ -44,3 +44,5 @@ Lighthouse accessibility audit: first score 94/100
     "Touch targets do not have sufficient size or spacing."
     This requires a bit of CSS to add padding
     style tag added in 'head' with padding. Used ChatGPT to reccommend and it suggested an inline-block as well. 
+Lighthouse audit #2: 100/100!
+
