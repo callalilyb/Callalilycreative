@@ -18,7 +18,7 @@ body {
 :root {
     --color-background: #FFFFFF;
     --color-surface: #F2F2F2;
-    --color-text: #11111111;
+    --color-text: #111111;
     --color-muted: #555555;
     --color-accent: #FF0000;
 }
