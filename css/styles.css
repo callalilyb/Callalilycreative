@@ -13,3 +13,31 @@ body {
 
 /* 1 rem font size is relative, required for mid term assi. */
 
+/* ===Colour Palette==== */
+
+:root {
+    --color-background: #FFFFFF;
+    --color-surface: #F2F2F2;
+    --color-text: 1111111;
+    --color-muted: #555555;
+    --color-accent: #FF0000;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+/* I told chatgpt that I want this website to scroll very smoothly to have an editorial look. It suggested this SCROLL-BEHABIOR:SMOOTH. So that's where I learned it, for full transparency. */
+/* smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* using Emmett suggestions as well. */
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
