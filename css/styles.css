@@ -178,3 +178,11 @@ nav {
  .featured article {
     margin-bottom: 0;
  }
+
+ /* responsive images */
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+ 
