@@ -51,6 +51,7 @@ body {
 }
 
 /* wide page spacing */
+/* grid requirement for css midterm */
 header,
 main,
 footer {
@@ -59,4 +60,46 @@ footer {
     padding: 1.5rem;
 }
 
-/* grid requirement for css midterm */
+/* styling header and navigation */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header > a {
+    color: var(--color-text);
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+ nav a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+ }
+
+ nav a:hover {
+    color: var(--color-accent);
+ }
+
+ nav a:focus-visible,
+ header > a:focus:visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 4px;
+ }
+
+ /* using emmet a lot here for header styling and nav. */
