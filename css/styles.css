@@ -1,0 +1,15 @@
+/* Global box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Typography and page styles */
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* 1 rem font size is relative, required for mid term assi. */
+
