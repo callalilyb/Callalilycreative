@@ -24,6 +24,7 @@
     <main>
         <h1>Let's Connect</h1>
         <p>Have a project in mind, a question, or just want to say hello? Send me a message using the form below.</p>
+    
     <form method="post">
 
    <label for="name">Name:</label>
@@ -39,11 +40,36 @@
         <option value="feedback">Feedback</option>
         <option value="other">Other</option>
     </select>
-    
+
     <label for="message">Message:</label>
     <textarea id="message" name="message" rows="5" required></textarea>
+
+    <fieldset>
+        <legend>Preferred Contact Method</legend>
+       
+        <input type="radio" id="contact-email" name="contact-method" value="email">
+        <label for="contact-email">Email</label>
+        <input type="radio" id="contact-phone" name="contact-method" value="phone">
+        <label for="contact-phone">Phone</label>
+    </fieldset>
     <button type="submit">Send Message</button>
-    </form>
+   
+</form>
+
+<h2>Creative Servicees</h2>
+
+<table>
+    <caption>Creative services and availability</caption>
+
+    <head>
+        <tr>
+            <th scope="col">Creative Area</th>
+            <th scope="col">Example Services</th>
+            <th scope="col">Availability</th>
+        </tr>
+    </head>
+</table>
+
     </main>
 
     <!-- emmett suggested this 5-row message field, but I like it so it can stay. -->
