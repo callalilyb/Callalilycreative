@@ -23,6 +23,8 @@ body {
     --color-accent: #FF0000;
 }
 
+/* note there's SIX digits in the color-text lol */
+
 body {
     background-color: var(--color-background);
     color: var(--color-text);
@@ -103,3 +105,30 @@ nav {
  }
 
  /* using emmet a lot here for header styling and nav. */
+
+ /* creating a large hero section */
+
+ .hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0;
+ }
+
+ .her h1 {
+    font-size: clamp(3rem, 9vw, 8rem);
+    line-height: 0.95;
+    letter-spacing: -0.05em;
+    margin: 0 0 2rem;
+    max-width: 12ch;
+ }
+
+ .hero p {
+    font-size: 1.25rem;
+    max-width: 35rem;
+    margin: 0;
+ }
+
+ /* using clamp() so thaat it scales smoothly between viewports 
+ using max-width to keep the text from spilling too wide. */
