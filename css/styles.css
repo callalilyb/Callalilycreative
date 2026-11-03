@@ -18,7 +18,7 @@ body {
 :root {
     --color-background: #FFFFFF;
     --color-surface: #F2F2F2;
-    --color-text: 1111111;
+    --color-text: #11111111;
     --color-muted: #555555;
     --color-accent: #FF0000;
 }
@@ -97,7 +97,7 @@ nav {
  }
 
  nav a:focus-visible,
- header > a:focus:visible {
+ header > a:focus-visible {
     outline: 2px solid var(--color-accent);
     outline-offset: 4px;
  }
