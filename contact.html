@@ -24,12 +24,29 @@
     <main>
         <h1>Let's Connect</h1>
         <p>Have a project in mind, a question, or just want to say hello? Send me a message using the form below.</p>
-    <formm method="post">
+    <form method="post">
 
    <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
-    </formm>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject:</label>
+    <select id="subject" name="subject" required>
+        <option value="">Select a subject</option>
+        <option value="project">Project Inquiry</option>
+        <option value="question">Question</option>
+        <option value="feedback">Feedback</option>
+        <option value="other">Other</option>
+    </select>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+    </form>
     </main>
+
+    <!-- emmett suggested this 5-row message field, but I like it so it can stay. -->
 
     <footer>
         <p>&copy; 2026 Calla Lily Creative. All rights reserved.</p>
