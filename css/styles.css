@@ -132,3 +132,10 @@ nav {
 
  /* using clamp() so thaat it scales smoothly between viewports 
  using max-width to keep the text from spilling too wide. */
+
+ /* styling my name with the accent colour */
+ .accent {
+    color: var(--color-accent);
+ }
+
+ 
