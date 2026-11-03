@@ -41,3 +41,22 @@ html {
         scroll-behavior: auto;
     }
 }
+
+/* layout for the main page */
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+/* wide page spacing */
+header,
+main,
+footer {
+    width: 100%;
+    min-width: 0;
+    padding: 1.5rem;
+}
+
+/* grid requirement for css midterm */
