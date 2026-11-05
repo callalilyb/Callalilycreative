@@ -257,6 +257,7 @@ margin-bottom: 1.5rem;
 
  /* /* Styling About page. */
  /* Creading separation between each section. */
+ /* for this part I had chatgpt make me a list of each property to style. */
 
  .about-background {
    padding: 3rem 0 5 rem;
@@ -279,4 +280,52 @@ margin-bottom: 1.5rem;
    margin-top: 0;
  }
  
- 
+ /* Styling the Contact page */
+ /* form */
+
+ form {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   max-width: 40rem;
+   margin: 3rem 0;
+ }
+
+ form label {
+   font-weight: 600;
+ }
+
+ form input:not([type="radio"]),
+ form select,
+ form textarea {
+   width: 100%;
+   padding: 0.75rem;
+   border: 1px solid var(--color-muted);
+   border-radius: 0;
+   font: inherit;
+ }
+
+ form fieldset {
+   border: 1px solid var(--color-muted);
+   padding: 1rem;
+ }
+
+ form button {
+   align-self: flex-start;
+   padding:  0.75rem 1.5rem;
+   background-color: var(--color-text);
+   color: var(--color-background);
+   border: none;
+   font: inherit;
+   font-weight: 600;
+   cursor: pointer;
+ }
+
+ form button:hover {
+   background-color: var(--color-accent);
+ }
+
+ form button:focus-visible {
+   outline: 2px solid var(--color-accent);
+   outline-offset: 3px;
+ }
