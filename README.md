@@ -56,3 +56,5 @@ Lighthouse audit #2: 100/100!
 Nov. 5. Today I want to make sure that the styling between all the pagees is consistent. Working in css.
 
 updated css classes in visual.html so that all 3 portfolio pages are consistent.
+
+Adding a field in the contact form for phone number (optional)
