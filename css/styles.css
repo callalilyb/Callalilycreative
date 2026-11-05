@@ -194,3 +194,10 @@ nav {
  }
 
  /* nov. 3rd i've added card image for project 01. 02 and 03 not done yet. */
+
+ /* Nov. 4th. I am working on adding more pages and styling them.  */
+
+ /* highlight the current page in the navigation. learned this online lol. */
+ header nav a[aria-current="page"] {
+    color: var(--color-accent);
+ }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Projects | Calla Lily Creative</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        a {
+            display: inline-block;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#main-content">Skip to main content</a>
+    <!-- tested skip link in chrome. looks good.  -->
+
+<header> 
+<a href="index.html">Calla Lily Creative</a>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="visual.html" aria-current="page">Visual</a>
+        <a href="audio.html">Audio</a>
+        <a href="writing.html">Writing</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+<!-- here is my navigation bar -->
+
+</header>
+
+<main id="main-content">
+
+    <!-- This is a skip link. the href will point to the element with matching id.  -->
+    <section class="hero" aria-labelledby="welcome-heading">
+       
+        <h1 id="welcome-heading">Hi, I'm <span class="accent">Calla Lily</span></h1>
+        <!-- added a span here to highlight my name with the accent colour -->
+        <p>Welcome to my creative space.</p>
+
+        <!-- this is my large hero banner with welcome text. -->
+    
+    </section>
+
+    <section class="featured" aria-labelledby="featured-heading">
+        <h2 id="featured-heading">Featured Work</h2>
+        <article>
+            <h3>In Season Magazine</h3>
+            <p>An editorial design project exploring seasonal storytelling through photography, typography, and magazine layout.</p>
+     <img src="images/InSeasonCover.jpg"
+        alt="Cover of In Season, a seasonal lifestyle magazine"
+        width="1050"
+        height="1800">
+        </article>
+        
+        <article>
+            <h3>Cradled Beneath Our Feet</h3>
+            <p>An audio documentary exploring the forgotten history of Ottawa's Barrack Hill Cemetery, examining urban expansion, historical erasure, and the ethics of preserving burial sites.</p>
+        <img src="images/BarrackHill.jpeg"
+        alt="Sunlit sculpture surrounded by buildings in downtown Ottawa, where old burial site used to be"
+        width="1056"
+        height="1408">
+        </article>
+        <article>
+            <h3>Indigenous Futurism &amp; Visual Representation</h3>
+            <p>An analysis of Indigenous Futurism though Meryl McMaster's Ancestral photography series.</p>
+        <img src="images/IndigenousFuturismPic-1 (dragged).jpg"
+        alt="First page of an academic essay analyzing Indigenous Futurism in Meryl McMaster's Ancestral photography series"
+        width="2550"
+        height="3300">
+        </article>
+    </section>
+    
+    <!-- these are my featured project cards. they will have image and caption. -->
+
+</main>
+    
+<footer>
+    <p>&copy; 2026 Calla Lily Creative. All rights reserved.</p>
+    <nav aria-label="Social media">
+        <a href="#">Instagram</a>
+    </nav>
+</footer>
+
+
+<!-- At this point I have run the code through html validator. No errors or warnings! -->
+
+ 
+</body>
+</html>
