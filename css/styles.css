@@ -255,5 +255,28 @@ margin-bottom: 1.5rem;
  }
 
 
+ /* /* Styling About page. */
+ /* Creading separation between each section. */
+
+ .about-background {
+   padding: 3rem 0 5 rem;
+   max-width: 55rem;
+ }
+
+ .about-background h2 {
+   font-size: 2.5rem;
+   line-height: 1.1;
+   margin-bottom: 2.5rem;
+ }
+
+ .about-background h3 {
+   font-size: 1.5rem;
+   margin: 2rem 0 0.5rem;
+ }
+
+ .about-background p {
+   max-width: 65ch;
+   margin-top: 0;
+ }
  
  
