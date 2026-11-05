@@ -46,3 +46,12 @@ Lighthouse accessibility audit: first score 94/100
     style tag added in 'head' with padding. Used ChatGPT to reccommend and it suggested an inline-block as well. 
 Lighthouse audit #2: 100/100!
 
+
+=====Activity Log=====
+
+ /* nov. 3rd i've added card image for project 01. 02 and 03 not done yet. */
+
+ /* Nov. 4th. I am working on adding more pages and styling them.  */
+
+Nov. 5. Today I want to make sure that the styling between all the pagees is consistent. Working in css.
+

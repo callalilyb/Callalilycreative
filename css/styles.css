@@ -201,3 +201,26 @@ nav {
  header nav a[aria-current="page"] {
     color: var(--color-accent);
  }
+
+ /* Nov. 5th I am working on making all the interior pages have consistent styling. */
+
+ /* Interior page introductions. */
+
+ .page-intro {
+   padding: 5rem 0 3rem;
+ }
+
+ .page-intro h1 {
+   font-size: clamp(2.5rem, 7vw, 6rem);
+   line-height: 1;
+   letter-spacing: -0.05em;
+   margin: 0 0 2rem;
+ }
+
+ .page-intro p{
+   font-size: 1.25rem;
+   max-width: 45rem;
+ }
+
+ /* clamp() for responsive font sizing */
+ 
