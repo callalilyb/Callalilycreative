@@ -58,3 +58,5 @@ Nov. 5. Today I want to make sure that the styling between all the pagees is con
 updated css classes in visual.html so that all 3 portfolio pages are consistent.
 
 Adding a field in the contact form for phone number (optional)
+
+Also styling the 'creative services' table in contact page.

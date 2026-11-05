@@ -329,3 +329,38 @@ margin-bottom: 1.5rem;
    outline: 2px solid var(--color-accent);
    outline-offset: 3px;
  }
+
+ /* Styling 'creative service' table in the Contact page. */
+ /* used chatgpt again to write me a list of properties to edit with css. */
+
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 2rem 0 4rem;
+ }
+
+ table caption {
+   text-align: left;
+   font-weight: 600;
+   margin-bottom: 1rem;
+ }
+
+ table th, 
+ table td {
+   padding: 1rem;
+   text-align: left;
+   border-bottom: 1px solid #CCCCCC
+ }
+
+ table thead {
+   background-color: var(--color-text);
+   color: var(--color-background);
+ }
+
+ table tbody tr:nth-child(even) {
+   background-color: var(--color-surface);
+ }
+
+ table tfoot {
+   font-weight: 700;
+ }
