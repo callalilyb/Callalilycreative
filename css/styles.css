@@ -260,7 +260,7 @@ margin-bottom: 1.5rem;
  /* for this part I had chatgpt make me a list of each property to style. */
 
  .about-background {
-   padding: 3rem 0 5 rem;
+   padding: 3rem 0 5rem;
    max-width: 55rem;
  }
 
@@ -336,7 +336,7 @@ margin-bottom: 1.5rem;
  table {
    width: 100%;
    border-collapse: collapse;
-   margin-top: 2rem 0 4rem;
+   margin: 2rem 0 4rem;
  }
 
  table caption {
