@@ -60,3 +60,17 @@ updated css classes in visual.html so that all 3 portfolio pages are consistent.
 Adding a field in the contact form for phone number (optional)
 
 Also styling the 'creative services' table in contact page.
+
+Nov. 6-7 Final html, css, Lighthouse, responsive checks
+
+Site width at 375: looks good on all pages! no awkward spacing or text-wrap.
+
+No warnings, no errors for contact.html on W3 check
+no warnings, no errors for tyles.css
+about.html: good
+visual.html: good
+audio.html: fixed typo, then passed
+writing.html: good
+index.html: good
+
+Lighthouse test: 100 score! 
