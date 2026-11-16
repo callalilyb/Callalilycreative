@@ -84,3 +84,6 @@ updated head section on audio and visual page to include meta descriptions
 html checker
 audio.html: no errors no warnings
 visual.html: no errors no warnings
+
+Week 10 Accessible keyboard focus
+Give all interactive elements a visible focus indicator
