@@ -25,6 +25,54 @@ body {
 
 /* note there's SIX digits in the color-text lol */
 
+/* Week 10 Accessible keyboard focus */
+/* Give all interactive elements a visible focus indicator */
+
+:focus-visible {
+  outline: 0.1875rem solid var(--color-text)
+  outline-offset: 0.25rem;
+}
+
+/* Week 10 visually hidden accessible content */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect.(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* reveal skip link when focused with keyboard */
+.skip-link:focus-visible {
+  position: fixed;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  padding: 0.75rem 1rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  outline: 0.1875rem solid var(--color-text);
+  outline-offset: 0.25rem;
+  z-index: 1000;
+}
+
+/* z-index controls stacking order of overlapping elements. it helps kkeep important elements such as skip links visible.  */
+
+/* use a contrasting outline for dark backgrounds */
+form button: focus-visible {
+  outline-color: var(--color-accent);
+}
+
+/* there are more specific rules further down here which can override the universal rule. indicators should remain visible though. */
+
 body {
     background-color: var(--color-background);
     color: var(--color-text);
