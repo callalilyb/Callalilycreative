@@ -74,3 +74,13 @@ writing.html: good
 index.html: good
 
 Lighthouse test: 100 score! 
+
+
+
+Nov. 16 Week 10 SEO Assignment
+
+updated head section on audio and visual page to include meta descriptions
+
+html checker
+audio.html: no errors no warnings
+visual.html: no errors no warnings
