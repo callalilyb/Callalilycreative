@@ -87,3 +87,6 @@ visual.html: no errors no warnings
 
 Week 10 Accessible keyboard focus
 Give all interactive elements a visible focus indicator
+
+skip-link: focus-visible works in chrome!
+

@@ -86,11 +86,6 @@ html {
 
 /* using Emmett suggestions as well. */
 
-@media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
-}
 
 /* layout for the main page */
 body {
@@ -411,4 +406,11 @@ margin-bottom: 1.5rem;
 
  table tfoot {
    font-weight: 700;
+ }
+
+ /* week 10 respect reduced motion preferences */
+ @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
  }
