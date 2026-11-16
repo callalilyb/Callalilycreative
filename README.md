@@ -90,3 +90,6 @@ Give all interactive elements a visible focus indicator
 
 skip-link: focus-visible works in chrome!
 
+Lighthouse test: accessibility, Desktop - 100 score!
+
+axe report: 0 total issues yay!
