@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calla Lily Creative</title>
     meta name="description" content="Explore Calla Lily Creative, a portfolio featuring editorial design, audio projects, visual storytelling, and creative writing">
+    <!-- Week 11 Open Graph metadata for social sharing -->
+     <meta property="og:title" content="Calla Lily Creative | Portfolio">
+     <meta property="og:description" content="Explore a creative portfolio featuring editorial design, audio projects, visual storytelling, and writing.">
+     <meta property="og:image" content="https://callalilyb.github.io/Callalilycreative/images/og-preview.jpg">
+     <meta property="og:url" content="https://callalilyb.github.io/Callalilycreative/">
+     <meta property="og:type" content="website">
+
+     <!-- note that og":image url is planned. It's not going to work until i get an image in here and name it og-preview.jpg. -->
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Added this line in between title and link to fix Lighthouse SEO issue: Document does not have a meta description. -->
@@ -15,6 +23,23 @@
             padding: 8px;
         }
     </style>
+
+    <!-- Now i will write the structured data for w11 assignment -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "name": "Calla Lily Creative",
+        "description": "A creative portfolio featuring editorial design, audio projects, visual storytelling, and writing.",
+        "url": "https://callalilyb.github.io/Callalilycreative/",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Calla Lily",
+            "url": "https://callalilyb.github.io/Callalilycreative/"
+        }
+    }
+</script>
+
 </head>
 <body>
 
