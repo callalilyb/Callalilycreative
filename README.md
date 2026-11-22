@@ -119,11 +119,22 @@ Schema Markup Validator used to copy paste index.html file and run test.
 Adding 2 contextual internal links: one for magazine cover and the other for audio doc.
 These work because they both appear in the main page content. they also both use descriptive text rather than generic phrases like "click here"
 
-Checking for orphan pages. There are six pages linked from the homepage, so i need to test each one and make sure that the links lead to the correct pages. 
-Home (index.html)
-Visual (visual.html)
-Audio (audio.html)
-Writing (writing.html)
-About (about.html)
-Contact (contact.html)
+Checking for orphan pages. The two context links in my cards on the homepage are working well, linking to the correct pages. All links in the navigation bar working as well.
+
+Second lighthouse check in dev tools after working on Week 11 SEO requirements
+SEO and Desktop selected. score: 100/100
+(compared to 91/100 when I started)
+
+##SCREENSHOTS FOR WEEK 11 ASSIGNMENT
+
+![Schema validator screenshot](images/screenshots/Schema-Validator_CallaLilyCreative.jpg)
+
+![Lighthouse SEO check 1](images/screenshots/SEO-check_CallaLilyCreative.jpg)
+
+![Lighthouse SEO check 2](images/screenshots/SEO-check-2_CallaLilyCreative.jpg) 
+
+I used chatgpt to figure out how to put these screenshots here in my Readme file. I hope it works, but if not, the required screenshots are in the images>screenshots folder of my code. 
+
+
+
 
