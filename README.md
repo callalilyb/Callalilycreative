@@ -93,3 +93,11 @@ skip-link: focus-visible works in chrome!
 Lighthouse test: accessibility, Desktop - 100 score!
 
 axe report: 0 total issues yay!
+
+
+Nov. 21 Working on Week 11 Assignment
+
+Lighthouse SEO test score: 91/100
+Flagged issue: Document does not have a meta description. 
+Added meta tag in title of index.html to fix this. 
+
