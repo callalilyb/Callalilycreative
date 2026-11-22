@@ -101,3 +101,15 @@ Lighthouse SEO test score: 91/100
 Flagged issue: Document does not have a meta description. 
 Added meta tag in title of index.html to fix this. 
 
+Open Graph requirement
+og:title identifies Portfolio
+og:description summarizes the content in Portfolio
+og:image displays a preview image
+og:url identifies published homepage
+og:type classifies this page as a website
+
+Note that og":image url is planned. It's not going to work until i get an image in here and name it og-preview.jpg.
+- preview image has been created in Photo Shop.
+
+
+
