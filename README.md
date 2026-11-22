@@ -136,5 +136,15 @@ SEO and Desktop selected. score: 100/100
 I used chatgpt to figure out how to put these screenshots here in my Readme file. I hope it works, but if not, the required screenshots are in the images>screenshots folder of my code. 
 
 
+<!-- Nov. 22 working on Week 11 CSS -->
+
+replacing repeating properties with custom variable properties
+0.75rem is now var(--space-xs)
+1rem is now var(--space-sm)
+1.5rem is now var(--space-md)
+2rem is now var(--space-lg)
+3rem is now var(--space-xl)
+
+
 
 

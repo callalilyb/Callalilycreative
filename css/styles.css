@@ -116,8 +116,10 @@ main,
 footer {
     width: 100%;
     min-width: 0;
-    padding: 1.5rem;
+    padding: var(--space-med);
 }
+
+/* padding edited, value replaced with week 11 custom properties. */
 
 /* styling header and navigation */
 
@@ -126,7 +128,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 1.5rem;
+    gap: var(--space-md);
 }
 
 header > a {
@@ -139,7 +141,7 @@ header > a {
 nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: var(--space-md);
 }
 
  nav a {
