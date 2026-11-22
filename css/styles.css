@@ -172,14 +172,14 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3rem 0;
+    padding: var(--space-xl) 0;
  }
 
  .hero h1 {
     font-size: clamp(2.5rem, 7vw, 8rem);
     line-height: 0.95;
     letter-spacing: -0.05em;
-    margin: 0 0 2rem;
+    margin: 0 0 var(--space-lg);
     max-width: 20ch;
  }
 
@@ -200,19 +200,20 @@ nav {
  /* featured work section */
 
  .featured {
-    padding: 4rem 0;
+    padding: calc(var(--space-lg) * 2) 0;
+    /* this gives original 4rem spacing while still using established spacing scale. */
  }
 
  .featured h2 {
     font-size: 2.5rem;
     line-height: 1.1;
-    margin-bottom: 2rem;
+    margin-bottom: var(--space-lg);
  }
 
  .featured article {
     background-color: var(--color-surface);
-    padding: 2rem;
-    margin-bottom: 1.5rem;
+    padding: var(--space-lg);
+    margin-bottom: var(--space-md)
  }
 
  .featured h3 {
@@ -226,7 +227,7 @@ nav {
     .featured {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 1.5rem;
+        gap: var(--space-md);
     }
  }
 
@@ -249,7 +250,7 @@ nav {
  .featured article img {
     width: 100%;
     height: auto;
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--space-md);
  }
 
  /* nov. 3rd i've added card image for project 01. 02 and 03 not done yet. */
