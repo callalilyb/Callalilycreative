@@ -111,5 +111,12 @@ og:type classifies this page as a website
 Note that og":image url is planned. It's not going to work until i get an image in here and name it og-preview.jpg.
 - preview image has been created in Photo Shop.
 
+In the Head of my index.html, I wrote the JSON-LD structured data using the Schema.org ProfilePage type. It introduces me, my profile, my creative work.
+
+Schema Markup Validator used to copy paste index.html file and run test. 
+0 warnings, 0 errors!
+
+Adding 2 contextual internal links: one for magazine cover and the other for audio doc.
+
 
 
