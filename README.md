@@ -117,6 +117,13 @@ Schema Markup Validator used to copy paste index.html file and run test.
 0 warnings, 0 errors!
 
 Adding 2 contextual internal links: one for magazine cover and the other for audio doc.
+These work because they both appear in the main page content. they also both use descriptive text rather than generic phrases like "click here"
 
-
+Checking for orphan pages. There are six pages linked from the homepage, so i need to test each one and make sure that the links lead to the correct pages. 
+Home (index.html)
+Visual (visual.html)
+Audio (audio.html)
+Writing (writing.html)
+About (about.html)
+Contact (contact.html)
 
