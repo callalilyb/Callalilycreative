@@ -211,10 +211,23 @@ nav {
  }
 
  .featured article {
-    background-color: var(--color-surface);
+    --card-background: var(--color-surface);
+    --card-text: var(--color-text);
+    background-color: var(--card-baackground);
+    color: var(--card-text);
     padding: var(--space-lg);
     margin-bottom: var(--space-md)
  }
+
+ .featured article.featured-highlight {
+  --card-background: var(--color-text);
+  --card-text: var(--color-background);
+ }
+
+ /* I did use chatgpt to figure out how to write out this attribute! */
+ /* here, only the variable is changed, and the original component rule alters the styling automatically */
+
+
 
  .featured h3 {
     font-size: var(--font-heading);
@@ -434,3 +447,4 @@ margin-bottom: var(--space-md);
     scroll-behavior: auto;
   }
  }
+

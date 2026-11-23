@@ -145,6 +145,13 @@ replacing repeating properties with custom variable properties
 2rem is now var(--space-lg)
 3rem is now var(--space-xl)
 
+ ==Nov. 23 activity for week 11 assignment==
 
+ Creating a component variant using CSS variable overrides:
+ update .featured article rule
+ create highlighted card variant, then apply in html
+ check the results
+
+ chatgpt used here to create a sort of check list for this step
 
 
