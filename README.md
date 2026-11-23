@@ -156,3 +156,4 @@ replacing repeating properties with custom variable properties
 
 Adding an automatic dark mode:
 override colour tokens without duplicating component rules
+--tested on browswer: looks good! I would like to make the textlinks a different colour, though. Right now they are purple. I think red would be nice to match the current colour palette. 
