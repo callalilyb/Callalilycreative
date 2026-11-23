@@ -17,7 +17,7 @@ body {
 
 /* W11: replacing old root section with a new custom-property system */
 :root {
-   --color-accent: C00000;
+   --color-accent: #C00000;
    --color-border: #CCCCCC;
    /* spacing scale */
    --space-xs: 0.75rem;
