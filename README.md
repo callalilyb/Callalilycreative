@@ -154,4 +154,5 @@ replacing repeating properties with custom variable properties
 
  chatgpt used here to create a sort of check list for this step
 
-
+Adding an automatic dark mode:
+override colour tokens without duplicating component rules

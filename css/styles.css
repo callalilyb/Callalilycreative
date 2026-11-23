@@ -448,3 +448,17 @@ margin-bottom: var(--space-md);
   }
  }
 
+ /* Week 11 css: Automatic dark theme */
+ /* Override colour tokens without duplicating component rules */
+ /* here, the original root colours apply with light mode, but when dark mode is on, the variables inside this query override the original rule. The other css rules should stay the same. */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #111111;
+    --color-surface: 242424;
+    --color-text: #FFFFFF;
+    --color-muted: #CCCCCC;
+    --color-accent: #FF6B6B;
+    --color-border: #777777;
+  }
+}
