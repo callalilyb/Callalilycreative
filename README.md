@@ -157,3 +157,15 @@ replacing repeating properties with custom variable properties
 Adding an automatic dark mode:
 override colour tokens without duplicating component rules
 --tested on browswer: looks good! I would like to make the textlinks a different colour, though. Right now they are purple. I think red would be nice to match the current colour palette. 
+
+WebAim contrast verification:
+#FFFFFF and #111111 contrast score 18.88:1
+#FFFFFF and #242424 score: 15.52:1
+#FF6B6B and #111111 score: 6.8:1
+#FF6B6B and #242424 score: 5.59:1
+#CCCCCC and #111111 score: 11.75:1
+
+Rewrite one component with minimum three related rules as a single nested block using ampersand &.
+
+Fed styles.css through chatgpt to highlight typos
+

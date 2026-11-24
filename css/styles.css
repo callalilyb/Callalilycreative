@@ -17,6 +17,10 @@ body {
 
 /* W11: replacing old root section with a new custom-property system */
 :root {
+   --color-background: FFFFFF;
+   --color-surface: #F2F2F2;
+   ---color-text: #111111;
+   --color-muted: #555555;
    --color-accent: #C00000;
    --color-border: #CCCCCC;
    /* spacing scale */
@@ -116,7 +120,7 @@ main,
 footer {
     width: 100%;
     min-width: 0;
-    padding: var(--space-med);
+    padding: var(--space-md);
 }
 
 /* padding edited, value replaced with week 11 custom properties. */
@@ -144,20 +148,28 @@ nav {
     gap: var(--space-md);
 }
 
- nav a {
-    color: var(--color-text);
-    text-decoration: none;
-    font-size: var(--font-small);
-    font-weight: var(--font-weight-semibold);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
- }
+    & a {
+      color: var(--color-text);
+      text-decoration: none;
+      font-size: var(--font-small);
+      font-weight: var(--font-weight-semibold);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
 
- nav a:hover {
+    &:hover {
     color: var(--color-accent);
- }
+  }
 
- nav a:focus-visible,
+    &:focus-visible {
+      outline: 2px solid var(--color-accent);
+      outline-offset: 4px;
+    }
+
+    &[aria-current="page"] {
+      color: var(--color-accent)
+    }
+
  header > a:focus-visible {
     outline: 2px solid var(--color-accent);
     outline-offset: 4px;
@@ -213,7 +225,7 @@ nav {
  .featured article {
     --card-background: var(--color-surface);
     --card-text: var(--color-text);
-    background-color: var(--card-baackground);
+    background-color: var(--card-background);
     color: var(--card-text);
     padding: var(--space-lg);
     margin-bottom: var(--space-md)
@@ -270,10 +282,6 @@ nav {
 
  /* Nov. 4th. I am working on adding more pages and styling them.  */
 
- /* highlight the current page in the navigation. learned this online lol. */
- header nav a[aria-current="page"] {
-    color: var(--color-accent);
- }
 
  /* Nov. 5th I am working on making all the interior pages have consistent styling. */
 
@@ -347,7 +355,7 @@ margin-bottom: var(--space-md);
  }
 
  .about-background h3 {
-   font-size: var(--font-heading)
+   font-size: var(--font-heading);
    margin: var(--space-lg) 0 0.5rem;
  }
 
@@ -455,7 +463,7 @@ margin-bottom: var(--space-md);
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: #111111;
-    --color-surface: 242424;
+    --color-surface: #242424;
     --color-text: #FFFFFF;
     --color-muted: #CCCCCC;
     --color-accent: #FF6B6B;
