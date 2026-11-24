@@ -169,3 +169,7 @@ Rewrite one component with minimum three related rules as a single nested block 
 
 Fed styles.css through chatgpt to highlight typos
 
+W3C CSS validation:
+styles.css
+parse error in :root, highlighting ---color-text: #111111 there are three hyphens. Line 22.
+Typo fixed, no more errors found! green light.

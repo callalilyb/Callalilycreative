@@ -19,7 +19,7 @@ body {
 :root {
    --color-background: FFFFFF;
    --color-surface: #F2F2F2;
-   ---color-text: #111111;
+   --color-text: #111111;
    --color-muted: #555555;
    --color-accent: #C00000;
    --color-border: #CCCCCC;
@@ -143,23 +143,32 @@ header > a {
 }
 
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-md);
-}
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(space-md);
 
-    & a {
-      color: var(--color-text);
-      text-decoration: none;
-      font-size: var(--font-small);
-      font-weight: var(--font-weight-semibold);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
+  & a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: var(--font-small);
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 
     &:hover {
-    color: var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-accent);
+      outline-offset: 4px;
+    }
+
+    &[aria-current="page"] {
+      color: var(--color-accent);
+    }
   }
+}
 
     &:focus-visible {
       outline: 2px solid var(--color-accent);
@@ -376,7 +385,7 @@ margin-bottom: var(--space-md);
  }
 
  form label {
-   font-weight: 600;
+   font-weight: var(--font-weight-semibold);
  }
 
  form input:not([type="radio"]),
@@ -401,7 +410,7 @@ margin-bottom: var(--space-md);
    color: var(--color-background);
    border: none;
    font: inherit;
-   font-weight: 600;
+   font-weight: var(--font-weight-semibold);
    cursor: pointer;
  }
 
@@ -425,7 +434,7 @@ margin-bottom: var(--space-md);
 
  table caption {
    text-align: left;
-   font-weight: 600;
+   font-weight: var(--font-weight-semibold);
    margin-bottom: var(--space-sm);
  }
 
@@ -433,7 +442,7 @@ margin-bottom: var(--space-md);
  table td {
    padding: var(--space-sm);
    text-align: left;
-   border-bottom: 1px solid #CCCCCC
+   border-bottom: 1px solid var(--color-border);
  }
 
  table thead {
