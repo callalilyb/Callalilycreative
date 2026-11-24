@@ -17,7 +17,7 @@ body {
 
 /* W11: replacing old root section with a new custom-property system */
 :root {
-   --color-background: FFFFFF;
+   --color-background: #FFFFFF;
    --color-surface: #F2F2F2;
    --color-text: #111111;
    --color-muted: #555555;
